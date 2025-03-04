@@ -2,4 +2,4 @@ Aortic pulse wave velocity (PWV) – the speed that arterial pulse propagates al
 
 We achieve this by extending our previous work, which uses deep learning (DL) to create high-resolution 3D aortic segmentations from a trans-axial stack of bright-blood localizer images with low through-plane resolution. These 3D segmentations can be used to extract an aortic centerline and calculate the path length (distance along the centerline between ascending and descending aortic flow measurements). As a stack of localizers is routinely acquired in almost all CMR exams, this method enables path length to be estimated in most subjects. Furthermore, we developed DL segmentation of the ascending and descending aorta in the phase contrast flow images, allowing fully automated measurement of pulse transit time. 
 
-![Image description](PipelineOverview.png)
+![Image description](PipelineOverview.jpg)
