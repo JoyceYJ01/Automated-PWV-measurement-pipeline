@@ -4,6 +4,8 @@ We achieve this by extending our previous work, which uses deep learning (DL) to
 
 ![Image description](PipelineOverview.jpg)
 
-In folder Aorta segmentation, you can find the model creating high-resolution 3D segmentation from localizers, training details of the model is also available at https://github.com/JoyceYJ01/U-Net_LR. 
+In the Aorta segmentation folder, you can find the model creating high-resolution 3D segmentation from localizers, training details of the model is also available at https://github.com/JoyceYJ01/U-Net_LR. Please note that centerline extraction algorithm used the Vascular Modeling Toolkit (VMTK) package , which requires an older version of the VTK mesh (version 42) to function correctly.
 
-In folder Flow segmentation, you can find the model segmenting ascending and descending aorta from the phase contrast images and gives the flow curves. The transit time is defined as the time between inflection points (i.e. the peak of the first derivative) of systolic ejection curves in the ascending and descending aorta.
+In the Flow segmentation folder, you can find the model segmenting ascending and descending aorta from the phase contrast images and gives the flow curves. The transit time is defined as the time between inflection points (i.e. the peak of the first derivative) of systolic ejection curves in the ascending and descending aorta. The process is shown in the figure below.
+
+![Image description](FlowSeg.jpg)
