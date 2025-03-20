@@ -8,4 +8,4 @@ In the Aorta segmentation folder, you can find the model creating high-resolutio
 
 In the Flow segmentation folder, you can find the model segmenting ascending and descending aorta from the phase contrast images and gives the flow curves. The transit time is defined as the time between inflection points (i.e. the peak of the first derivative) of systolic ejection curves in the ascending and descending aorta. The process is shown in the figure below.
 
-![Image description](FlowSeg.jpg)
+![Image description](PCflowSeg.jpg)
