@@ -8,7 +8,7 @@ We achieve this by extending our previous work, which uses deep learning (DL) to
 
 In the Aorta segmentation folder, you can find the model creating high-resolution 3D segmentation from localizers, training details of the model is also available at https://github.com/JoyceYJ01/U-Net_LR. Please note that centerline extraction algorithm used the Vascular Modeling Toolkit (VMTK) package , which requires an older version of the VTK mesh (version 42) to function properly.
 
-In the Flow segmentation folder, you can find the model segmenting ascending and descending aorta from the phase contrast images and gives the flow curves. There were more than one established methods of measuring transit time and we provided codes for 1. inflection points (i.e. second derivative) 2. 3. Half-max. The process is shown in the figure below.
+In the Flow segmentation folder, you can find the model segmenting ascending and descending aorta from the phase contrast images and gives the flow curves. There were more than one established methods of measuring transit time and we provided codes for 1. inflection points (i.e. second derivative) 2. Intersection of upslope fit line 3. Half-max of upslope. One example is shown in the figure below.
 
-Please cite our paper as: Jiang, Yue, Tina Yao, Nikhil Paliwal, Daniel Knight, Karan Punjabi, Jennifer Steeden, Alun D. Hughes, Vivek Muthurangu, and Rhodri Davies. "Fully automated measurement of aortic pulse wave velocity from routine cardiac MRI studies." Magnetic Resonance Imaging (2025): 110442.
-![Image description](FlowSeg_PCMR.jpg)
+More details of the pipeline are available in our paper: Jiang, Yue, Tina Yao, Nikhil Paliwal, Daniel Knight, Karan Punjabi, Jennifer Steeden, Alun D. Hughes, Vivek Muthurangu, and Rhodri Davies. "Fully automated measurement of aortic pulse wave velocity from routine cardiac MRI studies." Magnetic Resonance Imaging (2025): 110442.
+![Image description](transit_time_hf.jpg)
